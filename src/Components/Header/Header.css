@@ -1,0 +1,32 @@
+#HedaerContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgb(202, 202, 202);
+    padding-bottom: 0.4vh;
+    padding-top: 0.4vh;
+}
+
+#leftSideWrappeer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#InstaLogo{
+    height: 8vh;
+    margin-left: 3vh;
+}
+
+#heartIcon{
+    margin-right: 3vh;
+    margin-left: 3vh;
+}
+
+#dropDownIcon{
+    margin-left: 2vh;
+}
+
+.cursorPointer{
+    cursor: pointer;
+}
