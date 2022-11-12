@@ -1,9 +1,6 @@
 import React from 'react';
 import './Header.css'
 
-{/* i need to make an instagram header/button + a drop down V on the left */ }
-{/* then i need to the left add a plus button and a heart button */ }
-
 const Header = () => {
     return (
         <div id='HedaerContainer'>

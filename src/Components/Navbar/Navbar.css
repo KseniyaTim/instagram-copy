@@ -1,0 +1,18 @@
+#navbarContainer{
+    position: relative;   
+}
+
+#navbarWrapper{
+    /* position: absolute;
+    bottom: 0; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 15vh;
+    padding-right: 15vh;
+    border-top: 1px solid rgb(202, 202, 202);
+    position: fixed; 
+    bottom: 0; 
+    left:0; 
+    width:100%;
+}
