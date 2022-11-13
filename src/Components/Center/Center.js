@@ -1,9 +1,10 @@
 import React from 'react';
+import './Center.css'
 
 const Center = () => {
     return (
-        <div>
-            
+        <div id='centerContainer'>
+            I AM CENTER
         </div>
     );
 };
