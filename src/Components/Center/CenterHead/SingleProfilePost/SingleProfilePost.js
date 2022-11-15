@@ -4,7 +4,7 @@ import CommentSection from '../../CommentSection/CommentSection';
 
 const SingleProfilePost = ({postName, postPic, mainPost}) => {
     return (
-        <div>
+        <div className='largeScreenProfileWrapper'>
             <div className='single_header'>
                 <div className='left_side'>
                     <img className='profile_pic' src={postPic} alt='profile'/>
@@ -18,6 +18,19 @@ const SingleProfilePost = ({postName, postPic, mainPost}) => {
                 <img className='main_picture' src={mainPost} alt='main post'/>
             </div>
             <CommentSection/>
+            <div className='num_likes'>
+                <div >liked by <span className='bold'>angelina</span> and <span className='bold'>30,210 </span>others</div>
+            </div>
+            <div className='comments_wrapper'>
+                <div className='bold'>{postName}</div>
+                <div className='caption'>just happy to be here</div>
+            </div>
+            <div className='comments_wrapper'>
+                <div className='gray'>view all 3,421 comments</div>
+            </div>
+            <div className='comments_wrapper'>
+                <div className='gray'>5 days ago</div>
+            </div>
         </div>
     );
 };

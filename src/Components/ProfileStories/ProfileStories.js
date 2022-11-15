@@ -5,14 +5,16 @@ import SingleProfile from './SingleProfile/SingleProfile';
 
 const ProfileStories = () => {
     return (
-        <div id='storiesContainer'>
-            {STORY_ELEMENTS.map( (element, index) => 
-            <SingleProfile
-            key={index}
-            profileName={element.name}
-            ProfilePic={element.PFPic}
-            />
-            )}
+        <div>
+            <div id='storiesContainer'>
+                {STORY_ELEMENTS.map( (element, index) => 
+                <SingleProfile
+                key={index}
+                profileName={element.name}
+                ProfilePic={element.PFPic}
+                />
+                 )}
+            </div>
         </div>
     );
 };

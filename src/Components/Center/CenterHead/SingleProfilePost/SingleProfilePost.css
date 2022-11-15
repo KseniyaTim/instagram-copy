@@ -33,3 +33,33 @@
 .main_picture{
     width: 100%;
 }
+
+@media only screen and (min-width: 768px){
+    .main_picture{
+        width: 20%;   
+    }
+}
+
+.bold{
+    font-weight: bold;
+}
+.num_likes{
+    display: flex;
+    justify-content: left;
+    padding-left: 3vh;
+    padding-top: 2vh;
+}
+
+.caption{
+    padding-left: 1.5vh;
+}
+
+.comments_wrapper{
+    display: flex;
+    justify-content: left;
+    padding-left: 3vh;
+    padding-top: 1vh;
+}
+.gray{
+    color: gray;
+}

@@ -2,6 +2,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding-top: 3vh;
 }
 
 .comment_section_left_icons{
@@ -13,4 +14,12 @@
 
 .comment_section_right_icons{
     padding-right: 3vh;
+}
+
+.heart_icon{
+    padding-right: 2vh;
+}
+
+.comment_icon{
+    padding-right: 2vh;
 }
