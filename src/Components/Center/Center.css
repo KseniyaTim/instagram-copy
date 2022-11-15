@@ -1,3 +1,4 @@
 #centerContainer{
-    height: 65vh;
+    overflow-y: auto;
+    max-height: 69vh;
 }

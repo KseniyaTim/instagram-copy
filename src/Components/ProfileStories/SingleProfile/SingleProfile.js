@@ -4,9 +4,10 @@ import './SingleProfile.css'
 const SingleProfile = ({ profileName, ProfilePic }) => {
     return (
         <div id='singleProfileContainer'>
-
-            <img id='singlePic' src={ProfilePic} alt='profile' />
-            <div>{profileName}</div>
+            <div className='picture_border'>
+                 <img className='cursorStyle singlePic' src={ProfilePic} alt='profile' />
+             </div>
+            <div className='cursorStyle' id='singleName'>{profileName}</div>
         </div>
     );
 };

@@ -1,11 +1,28 @@
-#singleProfileContainer{
-    padding: 1vh;
+#singleProfileContainer {
+  padding: 1vh;
+  width: 18vh;
+  height: 13vh;
+  
 }
 
-#singlePic{
-    border-radius: 50%;
-    width: 10vh;
-    height: 10vh;
-    border: 1px solid rgb(202, 202, 202);
-    padding: 0.4vh
+.singlePic {
+  border-radius: 50%;
+  width: 9vh;
+  height: 9vh;
+  border: 0.5vh solid white;
+}
+
+/* .picture_border{
+  background-image: linear-gradient(red, purple , yellow);
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+} */
+
+#singleName {
+  font-size: 2vh;
+}
+
+.cursorStyle{
+    cursor: pointer;
 }

@@ -1,0 +1,16 @@
+.comment_section_container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.comment_section_left_icons{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 3vh;
+}
+
+.comment_section_right_icons{
+    padding-right: 3vh;
+}
