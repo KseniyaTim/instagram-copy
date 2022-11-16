@@ -9,17 +9,17 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-left: 3vh;
 }
 
 .comment_section_right_icons{
-    padding-right: 3vh;
-}
-
-.heart_icon{
     padding-right: 2vh;
 }
 
-.comment_icon{
+#likeIcon{
+    padding-right: 2vh;
+    padding-left: 2vh;
+}
+
+#commentIcon{
     padding-right: 2vh;
 }

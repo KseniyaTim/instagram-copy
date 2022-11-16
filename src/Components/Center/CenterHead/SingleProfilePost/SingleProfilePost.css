@@ -13,10 +13,11 @@
 .single_header{
     display: flex;
     justify-content: space-between;
-    padding-top: 3vh;
+    padding-top: 2vh;
     padding-left: 3vh;
     align-items: center;
-    padding-bottom: 3vh;
+    padding-bottom: 2vh;
+    border-top: 1px solid rgb(202, 202, 202);
 }
 
 .profile_name{
@@ -47,7 +48,7 @@
     display: flex;
     justify-content: left;
     padding-left: 3vh;
-    padding-top: 2vh;
+    padding-top: 1vh;
 }
 
 .caption{
@@ -59,6 +60,7 @@
     justify-content: left;
     padding-left: 3vh;
     padding-top: 1vh;
+    padding-bottom: 2vh;
 }
 .gray{
     color: gray;

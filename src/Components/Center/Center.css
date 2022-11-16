@@ -1,4 +1,8 @@
-#centerContainer{
+.center_container{
     overflow-y: auto;
-    max-height: 69vh;
+    max-height: 84vh;
 }
+
+.center_container::-webkit-scrollbar {
+    display: none;
+  }
