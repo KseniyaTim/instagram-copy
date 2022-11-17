@@ -1,8 +1,8 @@
-#navbarContainer{
+.navbar_container{
     position: relative;   
 }
 
-#navbarWrapper{
+.navbar_wrapper{
     display: flex;
     justify-content: space-around;
     align-items: center;

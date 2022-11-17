@@ -1,4 +1,4 @@
-#singleProfileContainer {
+.single_profile_container {
   padding: 1vh;
   width: 18vh;
   height: 13vh;
@@ -19,7 +19,7 @@
   border-radius: 50%;
 } */
 
-#singleName {
+.single_name {
   font-size: 2vh;
 }
 

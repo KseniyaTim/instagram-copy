@@ -1,6 +1,6 @@
 .center_container{
     overflow-y: auto;
-    max-height: 84vh;
+    max-height: 86vh;
 }
 
 .center_container::-webkit-scrollbar {

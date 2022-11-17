@@ -1,11 +1,11 @@
 import React from 'react';
 import './Center.css'
 import CenterHead from './CenterHead/CenterHead';
-import ProfileStories from '../ProfileStories/ProfileStories'
+import ProfileStories from './ProfileStories/ProfileStories'
 
 const Center = () => {
     return (
-        <div className='center_container center_container::-webkit-scrollbar'>
+        <div className='center_container'>
             <ProfileStories/>
             <CenterHead/>
         </div>
