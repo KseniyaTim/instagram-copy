@@ -1,0 +1,11 @@
+.userNavbarWrapper {
+  height: 6vh;
+  border-bottom: 1px solid rgb(202, 202, 202);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.icon{
+    cursor: pointer;
+}

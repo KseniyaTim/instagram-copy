@@ -1,0 +1,9 @@
+.userWrapper{
+    overflow-y: auto;
+    max-height: 86vh;
+    height: 100vh;
+}
+
+.userWrapper::-webkit-scrollbar {
+    display: none;
+  }
