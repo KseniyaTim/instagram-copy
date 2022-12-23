@@ -1,8 +1,17 @@
-.center_container{
-    overflow-y: auto;
-    max-height: 86vh;
+.center_container {
+  overflow-y: auto;
+  max-height: 86vh;
+  border-top: 1px solid rgb(202, 202, 202);
+  text-align: center;
 }
 
 .center_container::-webkit-scrollbar {
-    display: none;
+  display: none;
+}
+
+@media only screen and (min-width: 600px) {
+  .center_container {
+    margin-left: 60vh;
+    margin-right: 60vh;
   }
+}

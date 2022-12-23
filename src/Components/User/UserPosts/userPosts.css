@@ -1,0 +1,17 @@
+.userPost {
+  height: 14vh;
+  width: 15vh;
+}
+
+.userPostsWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media only screen and (min-width: 600px) {
+  .userPostsWrapper {
+    padding-left: 60vh;
+    padding-right: 60vh;
+  }
+}

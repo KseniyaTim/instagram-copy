@@ -1,4 +1,35 @@
 .userBodyWrapper {
   height: 30vh;
-  border-bottom: 1px solid rgb(202, 202, 202);
+}
+
+.profileHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.userProfile {
+  border-radius: 50%;
+  height: 11vh;
+  margin-top: 2vh;
+}
+
+.mainNum {
+  font-weight: bold;
+}
+
+@media only screen and (min-width: 600px) {
+  .userBodyWrapper {
+    margin-left: 60vh;
+    margin-right: 60vh;
+  }
+}
+
+.userBio {
+  margin-left: 3vh;
+  margin-top: 2vh;
+}
+.userBioTitle {
+  font-weight: bold;
+  margin-bottom: 1.5vh;
 }

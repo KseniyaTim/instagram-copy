@@ -3,6 +3,7 @@ import './user.css'
 import UserHeader from './UserHeader/UserHeader';
 import UserBody from './UserBody/UserBody';
 import UserNavbar from './UserNavbar/UserNavbar';
+import UserPosts from './UserPosts/UserPosts'
 
 const User = () => {
 
@@ -11,6 +12,7 @@ const User = () => {
             <UserHeader/>
             <UserBody/>
             <UserNavbar/>
+            <UserPosts/>
         </div>
     );
 };
